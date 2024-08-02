@@ -1,0 +1,168 @@
+.main {
+    padding: 0.1rem;
+    height: auto;
+    background-color: #bef597;
+    color: black;
+    width: 100%;
+    /* border: 2px solid black; */
+}
+
+.layout {
+    /* border: 2px solid black; */
+    display: flex;
+    height: auto;
+    width: auto;
+}
+
+.sidebar {
+    /* border: 2px solid black; */
+    height: auto;
+    min-width: 5rem;
+    width: 40%;
+    border-radius: 0px 7px 7px 0px;
+    /* background-color: #192231; */
+    background-color: #335c67;
+    /* background-color: #313715; */
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    /* padding-left: 1rem; */
+    border: 2px solid black;
+    font-size: 1rem;
+
+}
+
+.content {
+    width: 100%;
+    /* border: 2px solid black; */
+    min-height: 99vh;
+}
+
+.header {
+    height: 15vh;
+    margin-bottom: 0.4rem;
+    border: 2px solid black;
+    border-radius: 7px 1px 1px 7px;
+}
+
+.header-content {
+    margin: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 50px;
+}
+
+.header-content i {
+    margin-right: 20px;
+    font-size: 1.5rem;
+}
+
+.header-content a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.content-body {
+    min-height: 83vh;
+    /* margin-bottom: 20px; */
+    border: 2px solid black;
+    border-radius: 0.5rem 1px 1px 0.5rem;
+    /* border-radius: 0.4rem; */
+}
+
+/* .logo {
+    background-color: #e0b413;
+
+} */
+
+
+.logo h6 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.menu {
+    margin-top: 30px;
+}
+
+.menu-item {
+    margin-bottom: 30px;
+    padding: 15px;
+}
+
+.menu-item a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding-left: 20px;
+}
+
+.active {
+    background-color: #f4f4f4;
+}
+
+.active a,
+.active i {
+    /* color: rgb(121, 79, 24); */
+    color: #EA701F;
+    font-size: larger;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .main {
+        font-size: 15px;
+    }
+
+    .sidebar {
+        /* background-color: red; */
+        width: 60%;
+        font-size: 15px;
+    }
+
+    .content {
+        font-size: 15px;
+    }
+
+    .header {
+        width: 90%;
+    }
+
+    .content-body {
+        font-size: 15px;
+        width: 90%;
+    }
+}
+
+/* Media query for screens smaller than 480px */
+@media (max-width: 480px) {
+
+    .main {
+        font-size: 12px;
+    }
+
+    .sidebar {
+        /* background-color: red; */
+        width: 50%;
+        font-size: 12px;
+    }
+
+    .content {
+        font-size: 12px;
+    }
+
+    .header {
+        width: 95%;
+    }
+
+    .content-body {
+        /* background-color: yellow; */
+        font-size: 12px;
+        width: 95%;
+    }
+
+
+}
